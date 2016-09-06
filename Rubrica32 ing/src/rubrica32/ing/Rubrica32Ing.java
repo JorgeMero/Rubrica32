@@ -17,6 +17,7 @@ public class Rubrica32Ing {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Bienvendio a Java");
+        System.out.println("Es fàcil");
     }
     
 }

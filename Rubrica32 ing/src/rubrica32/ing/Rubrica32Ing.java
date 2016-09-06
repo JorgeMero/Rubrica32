@@ -8,7 +8,7 @@ package rubrica32.ing;
 import java.util.Scanner;
 
 /**
- *Descripción: Resta Dos Números
+ * Descripción: Múltiplicar Dos Números
  * @author Jorge Mero
  */
 public class Rubrica32Ing {
@@ -18,16 +18,16 @@ public class Rubrica32Ing {
      */
     public static void main(String[] args) {
        
-  Scanner teclado=new Scanner(System.in);
-    int valor1=0;
-    int valor2=0;
-    int resta=0;
-    System.out.print("Ingrese el primer valor ==> ");
-    valor1=teclado.nextInt();
-    System.out.print("Ingrese el segundo valor ==> ");
-    valor2=teclado.nextInt();
-    resta=valor1-valor2;
-    System.out.println("la resta es ==> "+resta);
+        Scanner entrada=new Scanner(System.in);
+        int valor1=0;
+        int valor2=0;
+        int producto=0;
+        System.out.println("Ingrese el primer valor");
+        valor1= entrada.nextInt();
+        System.out.println("Ingrese el segundo valor");
+        valor2=entrada.nextInt();
+        producto=valor1*valor2;
+        System.out.printf("El producto de %d por %d es igual a %d\n ",valor1,valor2,producto); 
      }
    }
 

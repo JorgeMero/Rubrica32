@@ -8,7 +8,7 @@ package rubrica32.ing;
 import java.util.Scanner;
 
 /**
- * Descripción: Múltiplicar Dos Números
+ * Descripción:  División Dos Números
  * @author Jorge Mero
  */
 public class Rubrica32Ing {
@@ -19,15 +19,16 @@ public class Rubrica32Ing {
     public static void main(String[] args) {
        
         Scanner entrada=new Scanner(System.in);
-        int valor1=0;
-        int valor2=0;
-        int producto=0;
-        System.out.println("Ingrese el primer valor");
-        valor1= entrada.nextInt();
-        System.out.println("Ingrese el segundo valor");
-        valor2=entrada.nextInt();
-        producto=valor1*valor2;
-        System.out.printf("El producto de %d por %d es igual a %d\n ",valor1,valor2,producto); 
-     }
+            double valor1=0;  //Uso la variable double esta me permitira mostra 2 decimales de la operaciòn 
+            double valor2=0;
+            double division=0.0;
+            System.out.println("Ingrese el primer valor");
+            valor1=entrada.nextInt();
+            System.out.println("Ingrese le segundo valor");
+            valor2=entrada.nextInt();
+            division=valor1/valor2;
+            System.out.println("El resultado es ="+division);
+            
+    }
    }
 
